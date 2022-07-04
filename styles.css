@@ -1,0 +1,404 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  background: linear-gradient(110deg, #fff 70%, #ef33b4 60%);
+  position: relative;
+}
+
+.header-logo {
+  position: absolute;
+  top: 30px;
+  left: 135px;
+}
+.choose {
+  margin-top: 40px;
+  margin-left: 370px;
+}
+
+.header-img1 {
+  position: absolute;
+  bottom: 35px;
+  right: 400px;
+}
+.header-img2 {
+  position: absolute;
+  bottom: 35px;
+  right: 350px;
+}
+
+.link {
+  margin-left: 35px;
+}
+
+header h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+  text-align: right;
+  color: #ffffff;
+  padding-right: 135px;
+}
+
+header p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.18;
+  text-align: right;
+  color: #ffffff;
+  padding-right: 135px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+header select {
+  display: inline-block;
+  padding: 8px 13px;
+  background: #f4f4f4;
+  border-radius: 6px;
+  margin-left: 70px;
+}
+header a {
+  margin-left: 40px;
+  color: #000000;
+}
+
+.second {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.second-half {
+  width: 40%;
+  height: 100%;
+  background: radial-gradient(
+    100% 148.62% at 0% 0%,
+    #830d4d 0%,
+    rgba(131, 13, 77, 0) 100%
+  );
+  position: absolute;
+}
+
+h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 36px;
+  position: absolute;
+  top: 130px;
+  left: 135px;
+  z-index: 1;
+}
+
+.second h3 {
+  background: #3b72ff;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  color: #ffffff;
+  position: absolute;
+  padding: 20px 25px;
+  top: 250px;
+  left: 130px;
+}
+
+.pensioner {
+  display: inline-block;
+  width: 100%;
+  height: 600px;
+}
+
+.help {
+  background: #ef33b4;
+  color: #ffffff;
+  text-align: center;
+}
+
+.help h2 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 26px;
+}
+
+.help p {
+  padding-bottom: 55px;
+}
+.obsi {
+  width: 100%;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.info {
+  text-align: center;
+  width: 33%;
+  display: inline-block;
+  margin: 30px 0;
+}
+
+.after-info {
+  background: #ebf0ff;
+  border: 3px dashed #3b72ff;
+  border-radius: 20px;
+  text-align: center;
+  margin: 80px 135px 100px;
+}
+
+.after-info h2 {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.after-info p {
+  padding-bottom: 45px;
+}
+
+.focus-main {
+  width: 100%;
+  position: relative;
+}
+
+.focus {
+  display: inline-block;
+  /* background-color: #3b72ff; */
+  width: 70%;
+  margin-top: 30px;
+  margin-left: 135px;
+  margin-right: 110px;
+  position: relative;
+}
+.focus-content {
+  /* background-color: red; */
+  display: inline-block;
+  width: 30%;
+  text-align: left;
+  margin: 20px 40px;
+  padding-left: 20px;
+  /* margin-right: 20px; */
+}
+.focus h2 {
+  padding-left: 50px;
+}
+.focus-content h3 {
+  padding-bottom: 10px;
+  margin-left: 14px;
+}
+.focus-img {
+  width: 30%;
+  height: 110%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* padding-right: px; */
+}
+
+.like {
+  position: absolute;
+  bottom: 150px;
+  right: 95px;
+}
+
+hr {
+  width: 4px;
+  height: 46px;
+  background: #3b72ff;
+  position: absolute;
+}
+
+.founders {
+  margin-top: 150px;
+  position: relative;
+}
+.founder-male {
+  position: absolute;
+  left: 152px;
+  z-index: 1;
+}
+.founder-female {
+  position: absolute;
+  left: 342px;
+  top: 20px;
+  background: #ffffff;
+  border-radius: 15px;
+}
+.quotes {
+  position: absolute;
+  top: -30px;
+  left: 680px;
+}
+.founders p {
+  display: inline-block;
+  margin-left: 680px;
+  margin-top: 100px;
+  font-family: "Sailec";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.68;
+  color: #595959;
+}
+
+.founders hr {
+  position: absolute;
+  left: 700px;
+  transform: rotate(90deg);
+}
+
+.founders h2 {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 680px;
+}
+
+.interest {
+  height: 250px;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 120px;
+  margin-left: 135px;
+  margin-right: 135px;
+  position: relative;
+  background-color: #f14abd;
+}
+
+.interest h2 {
+  padding: 40px;
+  font-family: "Sailec";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.3;
+  color: #ffffff;
+}
+
+.interest h3 {
+  background: #3b72ff;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  color: #ffffff;
+  padding: 20px 25px;
+  width: 20%;
+  position: absolute;
+  top: 100px;
+  left: 620px;
+  margin-top: 20px;
+}
+
+.interest img {
+  position: absolute;
+  bottom: 0;
+  right: 200px;
+}
+article {
+  text-align: center;
+  width: 100%;
+}
+article h2 {
+  margin-top: 130px;
+  margin-bottom: 10px;
+}
+article p {
+  margin-bottom: 55px;
+}
+
+article div h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.article-1 {
+  display: inline-block;
+  width: 33%;
+}
+.article-2 {
+  display: inline-block;
+  width: 33%;
+}
+.article-3 {
+  display: inline-block;
+  width: 33%;
+}
+
+.ellipse {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.ellip {
+  display: inline-block;
+  position: relative;
+  width: 20%;
+  margin-top: 30px;
+}
+.ellip img {
+  width: auto;
+}
+
+.ellipse-num {
+  font-family: "Sailec";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  position: absolute;
+  top: 50px;
+  left: 182px;
+  color: #3b72ff;
+}
+.dis {
+  top: 20px;
+}
+
+.ellip h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer {
+  margin-top: 30px;
+  padding-bottom: 50px;
+  background: #333333;
+  color: #ffffff;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  opacity: 0.4;
+}
+
+.footer-1 {
+  width: 15%;
+  margin-left: 135px;
+}
+
+.footer-2 {
+  width: 15%;
+  margin-left: 40px;
+}
+.footer-3 {
+  width: 15%;
+  margin-left: 150px;
+}
+
+.footer-4 {
+  text-align: right;
+  margin-left: 280px;
+}
+.footer-4 h3 {
+  margin-bottom: 10px;
+}
+
+.last {
+  margin-left: 130px;
+  opacity: 0.4;
+}
